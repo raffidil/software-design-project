@@ -21799,9 +21799,9 @@
 												"$ref": "AAAAAAFxkfxi2R1/P6w="
 											},
 											"font": "Arial;13;0",
-											"left": 71.58642578125,
+											"left": 75.97900390625,
 											"top": 5,
-											"width": 70.671875,
+											"width": 77.58447265625,
 											"height": 13,
 											"text": "Export Game"
 										},
@@ -21814,7 +21814,7 @@
 											"font": "Arial;13;1",
 											"left": 10,
 											"top": 5,
-											"width": 56.58642578125,
+											"width": 60.97900390625,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -22814,7 +22814,7 @@
 											"height": 13,
 											"alpha": -0.09065985987834894,
 											"distance": 33.13608305156178,
-											"text": "2 : open"
+											"text": "2 : open(true)"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -24605,7 +24605,8 @@
 							},
 							"connector": {
 								"$ref": "AAAAAAFxkgTa0zpe8jk="
-							}
+							},
+							"arguments": "true"
 						},
 						{
 							"_type": "UMLMessage",
@@ -24788,9 +24789,9 @@
 												"$ref": "AAAAAAFxjkEfcGazXYY="
 											},
 											"font": "Arial;13;0",
-											"left": 74.58642578125,
+											"left": 78.97900390625,
 											"top": 21,
-											"width": 62.0009765625,
+											"width": 68.9326171875,
 											"height": 13,
 											"text": "Load Game"
 										},
@@ -24803,7 +24804,7 @@
 											"font": "Arial;13;1",
 											"left": 13,
 											"top": 21,
-											"width": 56.58642578125,
+											"width": 60.97900390625,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -27182,7 +27183,7 @@
 													"top": 358,
 													"width": 118.4853515625,
 													"height": 13,
-													"text": "Lifeline1: Database"
+													"text": ": Database"
 												},
 												{
 													"_type": "LabelView",
@@ -27752,7 +27753,6 @@
 							"_parent": {
 								"$ref": "AAAAAAFxjkEfcGaxcw0="
 							},
-							"name": "Lifeline1",
 							"represent": {
 								"$ref": "AAAAAAFxknC8Fyvp9DE="
 							},
@@ -27873,9 +27873,9 @@
 												"$ref": "AAAAAAFxkhk3WpBQ/RQ="
 											},
 											"font": "Arial;13;0",
-											"left": 114.58642578125,
+											"left": 118.97900390625,
 											"top": 29,
-											"width": 99.56640625,
+											"width": 106.50439453125,
 											"height": 13,
 											"text": "Add/Edit Category"
 										},
@@ -27888,7 +27888,7 @@
 											"font": "Arial;13;1",
 											"left": 53,
 											"top": 29,
-											"width": 56.58642578125,
+											"width": 60.97900390625,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -30794,13 +30794,13 @@
 												"$ref": "AAAAAAFxkmVHBOcrdgY="
 											},
 											"font": "Arial;13;0",
-											"left": 117.510498046875,
+											"left": 111.306884765625,
 											"top": 400,
-											"width": 59.97900390625,
+											"width": 82.38623046875,
 											"height": 13,
-											"alpha": 0.09347675211697212,
-											"distance": 32.14031735997639,
-											"text": "7 : image"
+											"alpha": 0.08090407738455428,
+											"distance": 37.12142238654117,
+											"text": "7 : image path"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -33583,13 +33583,14 @@
 							"_parent": {
 								"$ref": "AAAAAAFxkhk3WpBOULY="
 							},
-							"name": "image",
+							"name": "image path",
 							"source": {
 								"$ref": "AAAAAAFxkhsbw5IwRVM="
 							},
 							"target": {
 								"$ref": "AAAAAAFxkl8CX7CH8nk="
 							},
+							"messageSort": "reply",
 							"connector": {
 								"$ref": "AAAAAAFxkmVHA+cdpUc="
 							},
@@ -38239,13 +38240,13 @@
 												"$ref": "AAAAAAFxkotvnSs+4cA="
 											},
 											"font": "Arial;13;0",
-											"left": 579.31005859375,
+											"left": 576.056884765625,
 											"top": 321,
-											"width": 82.3798828125,
+											"width": 88.88623046875,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
-											"text": "5.a : open"
+											"text": "5.a : open(true)"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -38562,7 +38563,7 @@
 											"height": 13,
 											"alpha": -0.20749612033446038,
 											"distance": 19.4164878389476,
-											"text": "5.c : open",
+											"text": "5.c : open(true)",
 											"wordWrap": true
 										},
 										{
@@ -39827,13 +39828,13 @@
 												"$ref": "AAAAAAFxkpIMuYpQmrc="
 											},
 											"font": "Arial;13;0",
-											"left": 767.510498046875,
+											"left": 753.056884765625,
 											"top": 424,
-											"width": 59.97900390625,
+											"width": 88.88623046875,
 											"height": 13,
 											"alpha": -2.85554105263672,
 											"distance": 17.72004514666935,
-											"text": "5.b : open"
+											"text": "5.b : open(true)"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -40461,13 +40462,13 @@
 												"$ref": "AAAAAAFxkpMIs5oHj0Y="
 											},
 											"font": "Arial;13;0",
-											"left": 550.168701171875,
-											"top": 63,
-											"width": 94.66259765625,
+											"left": 534.7119140625,
+											"top": 57,
+											"width": 123.576171875,
 											"height": 13,
 											"alpha": -4.369365673448293,
 											"distance": 14.866068747318506,
-											"text": "7.a 7.b 7.c : files"
+											"text": "7.a 7.b 7.c : files path"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -40480,8 +40481,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 602.5,
-											"top": 53,
+											"left": 601.5,
+											"top": 47,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 25
@@ -40497,19 +40498,19 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 602.5,
-											"top": 68,
+											"left": 601.5,
+											"top": 62,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 583,
-									"top": 85,
+									"left": 582,
+									"top": 79,
 									"width": 40,
-									"alpha": 0.09141119428504563,
-									"distance": 120.50311199301038,
+									"alpha": 0.141897042839459,
+									"distance": 120.20815280171308,
 									"hostEdge": {
 										"$ref": "AAAAAAFxkpMIs5n8CX8="
 									},
@@ -40567,7 +40568,7 @@
 													"top": 942,
 													"width": 118.4853515625,
 													"height": 13,
-													"text": "Lifeline4: Database"
+													"text": ": Database"
 												},
 												{
 													"_type": "LabelView",
@@ -40669,7 +40670,7 @@
 													"top": 759,
 													"width": 166.88623046875,
 													"height": 13,
-													"text": "Lifeline5: DatabaseHandler"
+													"text": ": DatabaseHandler"
 												},
 												{
 													"_type": "LabelView",
@@ -42217,7 +42218,8 @@
 							"connector": {
 								"$ref": "AAAAAAFxkotvnCswDZ4="
 							},
-							"sequenceNumber": "5.a"
+							"sequenceNumber": "5.a",
+							"arguments": "true"
 						},
 						{
 							"_type": "UMLMessage",
@@ -42252,7 +42254,8 @@
 							"connector": {
 								"$ref": "AAAAAAFxkowu1TICnDw="
 							},
-							"sequenceNumber": "5.c"
+							"sequenceNumber": "5.c",
+							"arguments": "true"
 						},
 						{
 							"_type": "UMLMessage",
@@ -42267,6 +42270,7 @@
 							"target": {
 								"$ref": "AAAAAAFxknP33zLQfVE="
 							},
+							"messageSort": "reply",
 							"connector": {
 								"$ref": "AAAAAAFxko0akEPXOo8="
 							},
@@ -42285,6 +42289,7 @@
 							"target": {
 								"$ref": "AAAAAAFxknQMqTMba7o="
 							},
+							"messageSort": "reply",
 							"connector": {
 								"$ref": "AAAAAAFxko1M0kbltjo="
 							},
@@ -42303,6 +42308,7 @@
 							"target": {
 								"$ref": "AAAAAAFxknSWqDQxDmg="
 							},
+							"messageSort": "reply",
 							"connector": {
 								"$ref": "AAAAAAFxko3sF022SZU="
 							},
@@ -42324,7 +42330,8 @@
 							"connector": {
 								"$ref": "AAAAAAFxkpIMuIpCBl0="
 							},
-							"sequenceNumber": "5.b"
+							"sequenceNumber": "5.b",
+							"arguments": "true"
 						},
 						{
 							"_type": "UMLMessage",
@@ -42350,13 +42357,14 @@
 							"_parent": {
 								"$ref": "AAAAAAFxkhlru5DKY4Q="
 							},
-							"name": "files",
+							"name": "files path",
 							"source": {
 								"$ref": "AAAAAAFxknHpOy95aaQ="
 							},
 							"target": {
 								"$ref": "AAAAAAFxkoscCiOaPPA="
 							},
+							"messageSort": "reply",
 							"connector": {
 								"$ref": "AAAAAAFxkpMIs5n5c3w="
 							},
@@ -42514,7 +42522,6 @@
 							"_parent": {
 								"$ref": "AAAAAAFxkhlru5DKY4Q="
 							},
-							"name": "Lifeline4",
 							"represent": {
 								"$ref": "AAAAAAFxkpZKbs40T1U="
 							},
@@ -42526,7 +42533,6 @@
 							"_parent": {
 								"$ref": "AAAAAAFxkhlru5DKY4Q="
 							},
-							"name": "Lifeline5",
 							"represent": {
 								"$ref": "AAAAAAFxkpZyctAXsTE="
 							},
