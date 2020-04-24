@@ -68402,7 +68402,7 @@
 													"top": 47,
 													"width": 202.130859375,
 													"height": 13,
-													"text": "Lifeline1"
+													"text": "MultichoiceQuestion"
 												},
 												{
 													"_type": "LabelView",
@@ -68518,7 +68518,7 @@
 													"top": 47,
 													"width": 291.708984375,
 													"height": 13,
-													"text": "Lifeline2"
+													"text": "PictureQuestion or MusicQuestion"
 												},
 												{
 													"_type": "LabelView",
@@ -69980,7 +69980,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFxqAVRwRqBgno="
 							},
-							"name": "Lifeline1",
+							"name": "MultichoiceQuestion",
 							"isMultiInstance": false
 						},
 						{
@@ -69989,7 +69989,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFxqAVRwRqBgno="
 							},
-							"name": "Lifeline2",
+							"name": "PictureQuestion or MusicQuestion",
 							"isMultiInstance": false
 						},
 						{
