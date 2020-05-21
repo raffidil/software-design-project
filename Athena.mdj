@@ -2466,9 +2466,9 @@
 							"_parent": {
 								"$ref": "AAAAAAFxjB2Cnm54GuI="
 							},
-							"name": "Column2",
-							"type": "BackFlipImage",
-							"length": "String-path"
+							"name": "BackFlipImage",
+							"type": "String-path",
+							"length": 0
 						}
 					]
 				},
@@ -5261,7 +5261,7 @@
 											"left": 565,
 											"top": 589,
 											"width": 287.34814453125,
-											"height": 26,
+											"height": 13,
 											"text": "+setTeam(team: Team, name: String, color: String)",
 											"horizontalAlignment": 0,
 											"wordWrap": true
@@ -5277,7 +5277,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 565,
-											"top": 617,
+											"top": 604,
 											"width": 287.34814453125,
 											"height": 13,
 											"text": "+render(): void",
@@ -5288,7 +5288,7 @@
 									"left": 560,
 									"top": 584,
 									"width": 297.34814453125,
-									"height": 51
+									"height": 38
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -9314,7 +9314,7 @@
 											"left": 141,
 											"top": 361,
 											"width": 287.34814453125,
-											"height": 39,
+											"height": 26,
 											"text": "+setTheme(primColor: String, secondColor: String, bgColor: String, pattern: String, opacity: Int): void",
 											"horizontalAlignment": 0,
 											"wordWrap": true
@@ -9330,7 +9330,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 141,
-											"top": 402,
+											"top": 389,
 											"width": 287.34814453125,
 											"height": 13,
 											"text": "+openTeamsEditot(): void",
@@ -9341,7 +9341,7 @@
 									"left": 136,
 									"top": 251,
 									"width": 297.34814453125,
-									"height": 169
+									"height": 156
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -21179,9 +21179,9 @@
 												"$ref": "AAAAAAFxkf0CeR3rZag="
 											},
 											"font": "Arial;13;0",
-											"left": 70.97900390625,
+											"left": 66.58642578125,
 											"top": 29,
-											"width": 123.103515625,
+											"width": 109.646484375,
 											"height": 13,
 											"text": "Delete/Restart Game"
 										},
@@ -21194,7 +21194,7 @@
 											"font": "Arial;13;1",
 											"left": 5,
 											"top": 29,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -23153,9 +23153,9 @@
 												"$ref": "AAAAAAFxkfxi2R1/P6w="
 											},
 											"font": "Arial;13;0",
-											"left": 75.97900390625,
+											"left": 71.58642578125,
 											"top": 37,
-											"width": 77.58447265625,
+											"width": 70.671875,
 											"height": 13,
 											"text": "Export Game"
 										},
@@ -23168,7 +23168,7 @@
 											"font": "Arial;13;1",
 											"left": 10,
 											"top": 37,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -26144,9 +26144,9 @@
 												"$ref": "AAAAAAFxjkEfcGazXYY="
 											},
 											"font": "Arial;13;0",
-											"left": 86.97900390625,
+											"left": 82.58642578125,
 											"top": 45,
-											"width": 68.9326171875,
+											"width": 62.0009765625,
 											"height": 13,
 											"text": "Load Game"
 										},
@@ -26159,7 +26159,7 @@
 											"font": "Arial;13;1",
 											"left": 21,
 											"top": 45,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -29228,9 +29228,9 @@
 												"$ref": "AAAAAAFxkhk3WpBQ/RQ="
 											},
 											"font": "Arial;13;0",
-											"left": 118.97900390625,
+											"left": 114.58642578125,
 											"top": 37,
-											"width": 106.50439453125,
+											"width": 99.56640625,
 											"height": 13,
 											"text": "Add/Edit Category"
 										},
@@ -29243,7 +29243,7 @@
 											"font": "Arial;13;1",
 											"left": 53,
 											"top": 37,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -35196,9 +35196,9 @@
 												"$ref": "AAAAAAFxkhlrvJDMJwo="
 											},
 											"font": "Arial;13;0",
-											"left": 75.97900390625,
+											"left": 71.58642578125,
 											"top": 26,
-											"width": 105.787109375,
+											"width": 98.85546875,
 											"height": 13,
 											"text": "Add/Edit Question"
 										},
@@ -35211,7 +35211,7 @@
 											"font": "Arial;13;1",
 											"left": 10,
 											"top": 26,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -39163,9 +39163,9 @@
 											},
 											"font": "Arial;13;0",
 											"left": 183.494140625,
-											"top": 281,
+											"top": 287.5,
 											"width": 134.01171875,
-											"height": 39,
+											"height": 26,
 											"alpha": -0.09966863268918574,
 											"distance": 50.24937810560445,
 											"text": "4.a : text, descText, Answers, time, imgMode",
@@ -43982,9 +43982,9 @@
 												"$ref": "AAAAAAFxluwP91VJuOs="
 											},
 											"font": "Arial;13;0",
-											"left": 102.97900390625,
+											"left": 98.58642578125,
 											"top": 45,
-											"width": 58.8017578125,
+											"width": 54.599609375,
 											"height": 13,
 											"text": "Edit Team"
 										},
@@ -43997,7 +43997,7 @@
 											"font": "Arial;13;1",
 											"left": 37,
 											"top": 45,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -49120,9 +49120,9 @@
 												"$ref": "AAAAAAFxp5Ap1cmSIYE="
 											},
 											"font": "Arial;13;0",
-											"left": 94.97900390625,
+											"left": 90.58642578125,
 											"top": 45,
-											"width": 88.4453125,
+											"width": 79.34912109375,
 											"height": 13,
 											"text": "Open Question"
 										},
@@ -49135,7 +49135,7 @@
 											"font": "Arial;13;1",
 											"left": 29,
 											"top": 45,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -58935,9 +58935,9 @@
 												"$ref": "AAAAAAFxpwcTvL31tO0="
 											},
 											"font": "Arial;13;0",
-											"left": 83.97900390625,
+											"left": 79.58642578125,
 											"top": 13,
-											"width": 123.103515625,
+											"width": 109.646484375,
 											"height": 13,
 											"text": "Delete/Restart Game"
 										},
@@ -58950,7 +58950,7 @@
 											"font": "Arial;13;1",
 											"left": 18,
 											"top": 13,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -59651,9 +59651,9 @@
 												"$ref": "AAAAAAFxpwcTvb4ew+g="
 											},
 											"font": "Arial;13;0",
-											"left": 86.97900390625,
+											"left": 82.58642578125,
 											"top": 13,
-											"width": 77.58447265625,
+											"width": 70.671875,
 											"height": 13,
 											"text": "Export Game"
 										},
@@ -59666,7 +59666,7 @@
 											"font": "Arial;13;1",
 											"left": 21,
 											"top": 13,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -61257,9 +61257,9 @@
 												"$ref": "AAAAAAFxpwcTvr51cI4="
 											},
 											"font": "Arial;13;0",
-											"left": 86.97900390625,
+											"left": 82.58642578125,
 											"top": 5,
-											"width": 68.9326171875,
+											"width": 62.0009765625,
 											"height": 13,
 											"text": "Load Game"
 										},
@@ -61272,7 +61272,7 @@
 											"font": "Arial;13;1",
 											"left": 21,
 											"top": 5,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -62862,9 +62862,9 @@
 												"$ref": "AAAAAAFxpwcTwL7MB4M="
 											},
 											"font": "Arial;13;0",
-											"left": 75.97900390625,
+											"left": 71.58642578125,
 											"top": 10,
-											"width": 106.50439453125,
+											"width": 99.56640625,
 											"height": 13,
 											"text": "Add/Edit Category"
 										},
@@ -62877,7 +62877,7 @@
 											"font": "Arial;13;1",
 											"left": 10,
 											"top": 10,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -65590,9 +65590,9 @@
 												"$ref": "AAAAAAFxpwcTxr9d7GI="
 											},
 											"font": "Arial;13;0",
-											"left": 118.97900390625,
+											"left": 114.58642578125,
 											"top": 5,
-											"width": 109.39892578125,
+											"width": 102.10546875,
 											"height": 13,
 											"text": "Add/Edit Question "
 										},
@@ -65605,7 +65605,7 @@
 											"font": "Arial;13;1",
 											"left": 53,
 											"top": 5,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -70045,9 +70045,9 @@
 												"$ref": "AAAAAAFxqAWPgR3uzRw="
 											},
 											"font": "Arial;13;0",
-											"left": 70.97900390625,
+											"left": 66.58642578125,
 											"top": 5,
-											"width": 58.8017578125,
+											"width": 54.599609375,
 											"height": 13,
 											"text": "Edit Team"
 										},
@@ -70060,7 +70060,7 @@
 											"font": "Arial;13;1",
 											"left": 5,
 											"top": 5,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
