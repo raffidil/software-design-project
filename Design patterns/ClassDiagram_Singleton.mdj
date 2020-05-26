@@ -6695,7 +6695,7 @@
 											"top": 102,
 											"width": 287,
 											"height": 13,
-											"text": "+game: Game",
+											"text": "+game: SingletonGame",
 											"horizontalAlignment": 0
 										}
 									],
@@ -6729,7 +6729,7 @@
 											"top": 125,
 											"width": 287,
 											"height": 13,
-											"text": "+getGame(): Game",
+											"text": "+getGame(): SingletonGame",
 											"horizontalAlignment": 0
 										},
 										{
@@ -6746,7 +6746,7 @@
 											"top": 140,
 											"width": 287,
 											"height": 13,
-											"text": "+setGame(game: Game): void",
+											"text": "+setGame(game: SingletonGame): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -18078,7 +18078,9 @@
 								"$ref": "AAAAAAFxjjRp02WVu24="
 							},
 							"name": "game",
-							"type": "Game"
+							"type": {
+								"$ref": "AAAAAAFxjjc3N2XuLXs="
+							}
 						}
 					],
 					"operations": [
@@ -18096,7 +18098,9 @@
 									"_parent": {
 										"$ref": "AAAAAAFxjjYG7WXQjK0="
 									},
-									"type": "Game",
+									"type": {
+										"$ref": "AAAAAAFxjjc3N2XuLXs="
+									},
 									"direction": "return"
 								}
 							]
@@ -18116,7 +18120,9 @@
 										"$ref": "AAAAAAFxjjZKJWXZfQo="
 									},
 									"name": "game",
-									"type": "Game"
+									"type": {
+										"$ref": "AAAAAAFxjjc3N2XuLXs="
+									}
 								},
 								{
 									"_type": "UMLParameter",
